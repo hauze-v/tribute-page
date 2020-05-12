@@ -1,2 +1,2 @@
-# tribute-page
+# Tribute Page
 FreeCodeCamp Responsive Web Design Project #1 - Tribute Page
