@@ -1,20 +1,18 @@
 /* || General Styles || */
 body {
+  background-color: lightgray;
+}
+
+main {
   width: 960px;
   margin: auto;
   font-family: 'ABeeZee', sans-serif;
-  background-color: lightgrey;
-  color: black;
 }
 
 img {
   max-width: 100%;
   border-radius: 10px;
   margin-top: 30px;
-}
-
-p {
-
 }
 
 ul {
@@ -34,14 +32,19 @@ h1 {
   margin-top: 50px;
 }
 
-a {
-
-}
-
 h3 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: gray;
+  width: 100%;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 /* || Utilities || */
