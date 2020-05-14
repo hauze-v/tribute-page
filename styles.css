@@ -1,6 +1,14 @@
 /* || General Styles || */
 body {
+  width: 960px;
+  margin: auto;
+  font-family: 'ABeeZee', sans-serif;
+}
 
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
 }
 
 p {
@@ -8,22 +16,42 @@ p {
 }
 
 ul {
-
+  text-align: left;
+  line-height: 1.6;
 }
 
 li {
-
+  margin: 16px;
 }
 
 h1 {
-
+  text-align: center;
+  margin-top: 50px;
 }
 
 a {
 
 }
 
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* || Utilities || */
 .movie {
   font-style: italic;
+}
+
+/* || Specifics || */
+#img-caption {
+  text-align: center;
+  padding: 10px;
+}
+
+#tagline {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
